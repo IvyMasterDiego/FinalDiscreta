@@ -1,0 +1,9 @@
+D:\INTEC\Matematica Discreta II\FinalDiscreta\GraphGenerator\GraphGenerator\obj\Debug\GraphGenerator.Form1.resources
+D:\INTEC\Matematica Discreta II\FinalDiscreta\GraphGenerator\GraphGenerator\obj\Debug\GraphGenerator.Properties.Resources.resources
+D:\INTEC\Matematica Discreta II\FinalDiscreta\GraphGenerator\GraphGenerator\obj\Debug\GraphGenerator.csproj.GenerateResource.cache
+D:\INTEC\Matematica Discreta II\FinalDiscreta\GraphGenerator\GraphGenerator\obj\Debug\GraphGenerator.csproj.CoreCompileInputs.cache
+D:\INTEC\Matematica Discreta II\FinalDiscreta\GraphGenerator\GraphGenerator\bin\Debug\GraphGenerator.exe.config
+D:\INTEC\Matematica Discreta II\FinalDiscreta\GraphGenerator\GraphGenerator\bin\Debug\GraphGenerator.exe
+D:\INTEC\Matematica Discreta II\FinalDiscreta\GraphGenerator\GraphGenerator\bin\Debug\GraphGenerator.pdb
+D:\INTEC\Matematica Discreta II\FinalDiscreta\GraphGenerator\GraphGenerator\obj\Debug\GraphGenerator.exe
+D:\INTEC\Matematica Discreta II\FinalDiscreta\GraphGenerator\GraphGenerator\obj\Debug\GraphGenerator.pdb
