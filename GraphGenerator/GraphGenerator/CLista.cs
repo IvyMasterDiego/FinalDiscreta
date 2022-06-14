@@ -71,7 +71,7 @@ namespace GraphGenerator
             {
                 if (aElemento == null)
                 {
-                    aElemento = new Cvertice(pElemento.nombre);
+                    // aElemento = new Cvertice(pElemento.nombre);
                     aPeso = pPeso;
                     aSubLista = new CLista();
                 }

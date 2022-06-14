@@ -22,6 +22,12 @@ namespace GraphGenerator
             set { color_fuente = value; }
         }
 
+        public Color FontColor
+        {
+            get { return color_fuente; }
+            set { color_fuente = value; }
+        }
+
         public Point Posicion
         {
             get { return _posicion; }
@@ -113,8 +119,8 @@ namespace GraphGenerator
                 this._posicion.Y - this.dimensiones.Height / 2,
                 this.dimensiones.Width, this.dimensiones.Height));
             bool retval = posicion.IsVisible(p);
-                posicion.Dispose()
-                return retval;
+            posicion.Dispose();
+            return retval;
         }
         public string ToString()
         {

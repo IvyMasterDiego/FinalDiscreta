@@ -11,7 +11,7 @@ namespace GraphGenerator
     {
         public Cvertice nDestino;
         public int peso;
-        public float grososr_flecha;
+        public float grosor_flecha;
         public Color color;
         
 
@@ -23,7 +23,7 @@ namespace GraphGenerator
         {
             this.nDestino = destino;
             this.peso = peso;
-            this.grososr_flecha = 2;
+            this.grosor_flecha = 2;
             this.color = Color.Red;
         }
     }

@@ -16,5 +16,7 @@ namespace GraphGenerator
         {
             InitializeComponent();
         }
+
+        //TODO agregar codigo de la tarea del formulario 
     }
 }
