@@ -7,3 +7,14 @@ D:\INTEC\Matematica Discreta II\FinalDiscreta\GraphGenerator\GraphGenerator\bin\
 D:\INTEC\Matematica Discreta II\FinalDiscreta\GraphGenerator\GraphGenerator\bin\Debug\GraphGenerator.pdb
 D:\INTEC\Matematica Discreta II\FinalDiscreta\GraphGenerator\GraphGenerator\obj\Debug\GraphGenerator.exe
 D:\INTEC\Matematica Discreta II\FinalDiscreta\GraphGenerator\GraphGenerator\obj\Debug\GraphGenerator.pdb
+C:\Users\dlobato\Desktop\FinalDiscreta2\FinalDiscreta\GraphGenerator\GraphGenerator\bin\Debug\GraphGenerator.exe.config
+C:\Users\dlobato\Desktop\FinalDiscreta2\FinalDiscreta\GraphGenerator\GraphGenerator\bin\Debug\GraphGenerator.exe
+C:\Users\dlobato\Desktop\FinalDiscreta2\FinalDiscreta\GraphGenerator\GraphGenerator\bin\Debug\GraphGenerator.pdb
+C:\Users\dlobato\Desktop\FinalDiscreta2\FinalDiscreta\GraphGenerator\GraphGenerator\obj\Debug\GraphGenerator.csproj.AssemblyReference.cache
+C:\Users\dlobato\Desktop\FinalDiscreta2\FinalDiscreta\GraphGenerator\GraphGenerator\obj\Debug\GraphGenerator.Properties.Resources.resources
+C:\Users\dlobato\Desktop\FinalDiscreta2\FinalDiscreta\GraphGenerator\GraphGenerator\obj\Debug\GraphGenerator.csproj.GenerateResource.cache
+C:\Users\dlobato\Desktop\FinalDiscreta2\FinalDiscreta\GraphGenerator\GraphGenerator\obj\Debug\GraphGenerator.csproj.CoreCompileInputs.cache
+C:\Users\dlobato\Desktop\FinalDiscreta2\FinalDiscreta\GraphGenerator\GraphGenerator\obj\Debug\GraphGenerator.exe
+C:\Users\dlobato\Desktop\FinalDiscreta2\FinalDiscreta\GraphGenerator\GraphGenerator\obj\Debug\GraphGenerator.pdb
+C:\Users\dlobato\Desktop\FinalDiscreta2\FinalDiscreta\GraphGenerator\GraphGenerator\obj\Debug\GraphGenerator.Main.resources
+C:\Users\dlobato\Desktop\FinalDiscreta2\FinalDiscreta\GraphGenerator\GraphGenerator\obj\Debug\GraphGenerator.Vertice.resources
