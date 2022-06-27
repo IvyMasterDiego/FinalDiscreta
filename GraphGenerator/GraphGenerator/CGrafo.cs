@@ -84,7 +84,7 @@ namespace GraphGenerator
         {
             foreach(CVertice nodo in nodos)
             {
-                nodo.Color = Color.White;
+                nodo.Color = Color.Black;
                 nodo.FontColor = Color.Black;
                 foreach(CArco arco in nodo.ListaAdyacencia)
                 {
