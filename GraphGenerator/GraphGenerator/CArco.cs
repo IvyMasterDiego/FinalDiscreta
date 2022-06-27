@@ -9,17 +9,17 @@ namespace GraphGenerator
 {
     class CArco
     {
-        public Cvertice nDestino;
+        public CVertice nDestino;
         public int peso;
         public float grosor_flecha;
         public Color color;
         
 
-        public CArco(Cvertice destino) : this(destino, 1)
+        public CArco(CVertice destino) : this(destino, 1)
         {
             this.nDestino = destino;
         }
-        public CArco(Cvertice destino, int peso)
+        public CArco(CVertice destino, int peso)
         {
             this.nDestino = destino;
             this.peso = peso;

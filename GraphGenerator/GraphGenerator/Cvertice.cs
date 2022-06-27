@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace GraphGenerator
 {
-    class Cvertice
+    class CVertice
     {
         public string Valor;
         public List<CArco> ListaAdyacencia;
@@ -51,7 +51,7 @@ namespace GraphGenerator
         Point _posicion;
         int radio;
 
-        public Cvertice(string Valor)
+        public CVertice(string Valor)
         {
             this.Valor = Valor;
             this.ListaAdyacencia = new List<CArco>();
@@ -59,10 +59,10 @@ namespace GraphGenerator
             this._banderasPredert = new Dictionary<string, short>();
             this.Color = Color.Green;
             this.Dimensiones = new Size(size, size);
-            this.FontColor = Color.White;
+            this.FontColor = Color.Black;
         }
 
-        public Cvertice() : this("") { }
+        public CVertice() : this("") { }
 
         public void DibujarVertice(Graphics g)
         {

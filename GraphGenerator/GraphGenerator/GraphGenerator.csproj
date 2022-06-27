@@ -49,7 +49,7 @@
     <Compile Include="CArco.cs" />
     <Compile Include="CGrafo.cs" />
     <Compile Include="CLista.cs" />
-    <Compile Include="Cvertice.cs" />
+    <Compile Include="CVertice.cs" />
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>

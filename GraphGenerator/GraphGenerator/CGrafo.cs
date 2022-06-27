@@ -9,33 +9,33 @@ namespace GraphGenerator
 {
     class CGrafo
     {
-        public List<Cvertice> nodos;
+        public List<CVertice> nodos;
 
         public CGrafo()
         {
-            nodos = new List<Cvertice>();
+            nodos = new List<CVertice>();
         }
 
-        public Cvertice AgregarVertice(string valor)
+        public CVertice AgregarVertice(string valor)
         {
-            Cvertice nodo = new Cvertice(valor);
+            CVertice nodo = new CVertice(valor);
             nodos.Add(nodo);
             return nodo;
         }
 
-        public void AgregarVertice(Cvertice nuevonodo)
+        public void AgregarVertice(CVertice nuevonodo)
         {
             nodos.Add(nuevonodo);
         }
 
-        public Cvertice BuscarVertice(string valor)
+        public CVertice BuscarVertice(string valor)
         {
             return nodos.Find(v => v.Valor == valor);
         }
 
         public bool AgregarArco(string origen, string nDestino, int peso = 1)
         {
-            Cvertice vOrigen, vnDestino;
+            CVertice vOrigen, vnDestino;
             if ((vOrigen = nodos.Find(v => v.Valor == origen)) == null)
             {
                 throw new Exception("El nodo " + origen + " no existe dentro del grafo");
@@ -47,7 +47,7 @@ namespace GraphGenerator
             return AgregarArco(vOrigen, vnDestino);
         }
 
-        public bool AgregarArco(Cvertice origen, Cvertice nDestino, int peso = 1)
+        public bool AgregarArco(CVertice origen, CVertice nDestino, int peso = 1)
         {
             if(origen.ListaAdyacencia.Find(v=> v.nDestino == nDestino) == null)
             {
@@ -59,20 +59,20 @@ namespace GraphGenerator
 
         public void DibujarGrafo(Graphics g)
         {
-            foreach(Cvertice nodo in nodos)
+            foreach(CVertice nodo in nodos)
             {
                 nodo.DibujarArco(g);
             }
 
-            foreach(Cvertice nodo in nodos)
+            foreach(CVertice nodo in nodos)
             {
                 nodo.DibujarVertice(g);
             }
         }
 
-        public Cvertice DetectarPunto(Point posicionMouse)
+        public CVertice DetectarPunto(Point posicionMouse)
         {
-            foreach(Cvertice nodoActual in nodos)
+            foreach(CVertice nodoActual in nodos)
             {
                 if (nodoActual.DetectarPunto(posicionMouse))
                     return nodoActual;
@@ -82,7 +82,7 @@ namespace GraphGenerator
 
         public void ReestablecerGrafo(Graphics g)
         {
-            foreach(Cvertice nodo in nodos)
+            foreach(CVertice nodo in nodos)
             {
                 nodo.Color = Color.White;
                 nodo.FontColor = Color.Black;

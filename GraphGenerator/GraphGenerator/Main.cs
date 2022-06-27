@@ -14,9 +14,9 @@ namespace GraphGenerator
     public partial class Main : Form
     {
         private CGrafo grafo;
-        private Cvertice nuevonodo;
-        private Cvertice NodoOrigen;
-        private Cvertice NodoDestino;
+        private CVertice nuevonodo;
+        private CVertice NodoOrigen;
+        private CVertice NodoDestino;
         private int var_control = 0;
 
         private Vertice ventanaVertice;
@@ -51,7 +51,7 @@ namespace GraphGenerator
 
         private void crearVerticeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            nuevonodo = new Cvertice();
+            nuevonodo = new CVertice();
             var_control = 2;
         }
 

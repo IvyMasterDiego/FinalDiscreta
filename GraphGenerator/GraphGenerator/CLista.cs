@@ -8,7 +8,7 @@ namespace GraphGenerator
 {
     class CLista
     {
-        private Cvertice aElemento;
+        private CVertice aElemento;
         private CLista aSubLista;
         private int aPeso;
 
@@ -29,7 +29,7 @@ namespace GraphGenerator
             }
         }
 
-        public Cvertice Elemento
+        public CVertice Elemento
         {
             get
             {
@@ -65,7 +65,7 @@ namespace GraphGenerator
             return aElemento == null;
         }
 
-        public void Agregar(Cvertice pElemento, int pPeso)
+        public void Agregar(CVertice pElemento, int pPeso)
         {
             if (pElemento != null)
             {
@@ -85,7 +85,7 @@ namespace GraphGenerator
             }
         }
 
-        public void Eliminar(Cvertice pElemento)
+        public void Eliminar(CVertice pElemento)
         {
             if (aElemento != null)
             {
@@ -151,7 +151,7 @@ namespace GraphGenerator
             }
         }
 
-        public bool ExisteElemento(Cvertice pElemento)
+        public bool ExisteElemento(CVertice pElemento)
         {
             if ((aElemento != null) && (pElemento != null))
             {
@@ -163,7 +163,7 @@ namespace GraphGenerator
             }
         }
 
-        public int PosicionElemento(Cvertice pElemento)
+        public int PosicionElemento(CVertice pElemento)
         {
             if ((aElemento != null) || (ExisteElemento(pElemento)))
             {
