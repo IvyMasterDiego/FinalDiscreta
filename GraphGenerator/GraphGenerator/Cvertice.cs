@@ -102,7 +102,7 @@ namespace GraphGenerator
                 },
                 _posicion, new Point(arco.nDestino.Posicion.X + (int)(radio * difX / distancia), arco.nDestino.Posicion.Y + (int)(radio * difY / distancia)));
                 g.DrawString(arco.peso.ToString(), new Font("Times New Roman", 12),
-                    new SolidBrush(Color.White),
+                    new SolidBrush(Color.Black),
                     this._posicion.X - (int)((difX / 3)),
                     this._posicion.Y - (int)((difY / 3)),
                     new StringFormat()
