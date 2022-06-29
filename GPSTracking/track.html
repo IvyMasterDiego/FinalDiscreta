@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="display"></div>
+    <script>
+        var track = {
+            // (B) PROPERTIES & SETTINGS
+            rider: 999, // Rider ID - Fixed to 999 for this demo.
+            delay: 10000, // Delay between GPS update, in milliseconds.
+            timer: null, // Interval timer.
+            display: null, // HTML <div> element.
+
+            // (C) INIT
+            init: () => {
+                // (C1) GET HTML DISPLAY
+                track.display = document.getElementById("display");
+
+                // (C2) CHECK GPS SUPPORT + START TRACKING
+                if (navigator.geolocation) {
+                    track.update();
+                    track.timer = setInterval(track.update, track.delay);
+                } else {
+                    track.display.innerHTML = "Geolocation not supported!";
+                }
+            },
+
+            // (D) UPDATE CURRENT LOCATION TO SERVER
+            update: () => {
+                navigator.geolocation.getCurrentPosition(
+                    // (D1) OK - SEND GPS COORDS TO SERVER
+                    (pos) => {
+                        // LOCATION DATA
+                        var data = new FormData();
+                        data.append("req", "update");
+                        data.append("rider_id", track.rider);
+                        data.append("lat", pos.coords.latitude);
+                        data.append("lng", pos.coords.longitude);
+
+                        // AJAX FETCH
+                        fetch("ajax-track.php", {
+                                method: "POST",
+                                body: data
+                            })
+                            .then(res => res.json()).then((res) => {
+                                if (res.status == 1) {
+                                    track.display.innerHTML = Date.now() +
+                                        " | Lat: " + pos.coords.latitude +
+                                        " | Lng: " + pos.coords.longitude;
+                                } else {
+                                    track.display.innerHTML = res.message;
+                                }
+                            }).catch((err) => {
+                                console.error(err);
+                            });
+                    },
+
+                    // (D2) ERROR
+                    (err) => {
+                        console.error(err);
+                        track.display.innerHTML = err.message;
+                        clearInterval(track.timer);
+                    }
+                );
+            }
+        };
+        window.addEventListener("DOMContentLoaded", track.init);
+    </script>
+
+</body>
+
+</html>
+<!-- (A) your map here -->
