@@ -15,3 +15,13 @@ Para el desarrollo de la aplicacion utilizamos un entorno en C# para poder traba
 Tambien decidimos hacer una aplicacion extra de tracking de en PHP y JS para poder trabajar en la web lo que queremos lograr con esto es que sea libre a todo el mundo y sea facil de manejar para todos. 
 
 Lo que buscamos con esta aplicacion de web es que se pueda saber donde se tiene ubicado el sitio o el server y como llegar a donde esta ubicado. 
+
+## Mejora
+
+### Visual 
+
+Lo que se quiere es que el panel que tiene la aplicacion sea mas pequeño y este tenga el nombre de los integrantes del grupo y tambien hacer que sea mas bonito. 
+
+## Instalacion 
+
+Simplemente tienes que clonar el repositorio principal y hacer lo que tienes que hacer y subir los cambios, ya sea con la herramienta o desde el mismo **Visual Studio**, si en caso de que te pierdas simplemente espera a que llegue y yo te clono el proyecto para que resuelvas. 
