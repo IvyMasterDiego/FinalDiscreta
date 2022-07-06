@@ -1,4 +1,4 @@
-nav {
+/* nav {
   position: sticky;
   top: 0;
   background: white;
@@ -19,12 +19,12 @@ article {
 .execution {
   display: none;
 }
-
 .execution.execution_started {
   display: block;
 }
 
 /* Field */
+
 .field {
   display: inline-table;
   table-layout: fixed;
@@ -36,7 +36,7 @@ article {
   font-family: Helvetica;
   font-weight: bold;
   line-height: var(--cell-size);
-
+  
   width: var(--cell-size);
   height: var(--cell-size);
   box-sizing: border-box;
@@ -49,6 +49,7 @@ article {
 .field .fifth-row {
   border-bottom: 2px solid black;
 }
+
 .field .fifth-col.full {
   border-right-color: gray;
 }
@@ -56,21 +57,21 @@ article {
   border-bottom-color: gray;
 }
 
-.num,
-.cell {
+.num, .cell {
   --fg: black;
-  --bg: black;
+  --bg: white;
   border: 1px solid gray;
   color: var(--fg);
-  background-color: var(--bg);
+  background: var(--bg);
 }
 
 .empty {
   --fg: gray;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       to top right,
       transparent calc(50% - 0.5px),
-      var(--fg) calc(50%- 0.5px),
+      var(--fg) calc(50% - 0.5px),
       var(--fg) calc(50% + 0.5px),
       transparent calc(50% + 0.5px)
     ),
@@ -81,7 +82,8 @@ article {
       var(--fg) calc(50% + 0.5px),
       transparent calc(50% + 0.5px)
     ),
-    var(--bg);
+    var(--bg)
+    ;
 }
 
 .full {
@@ -100,4 +102,4 @@ article {
 .solving.undefined {
   background: var(--fg);
   opacity: 0.3;
-}
+} 
