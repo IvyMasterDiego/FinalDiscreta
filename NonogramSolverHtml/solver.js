@@ -735,4 +735,76 @@ function loadNumbers(url) {
       const cols = [];
       const rows = [];
       let current = null;
+      text.split(/\n/).forEach(line => {
+        if (line === 'columns') {
+          current = cols;
+        }
+        else if (line === 'rows') {
+          current = rows;
+        }        
+        else if (current && line.match(/\d+(,\d+)*/)) {
+          current.push(line.split(',').map(x => 0|x));
+        }
+        else {
+          current = null;
+        }
+      });
+      const numbers = {cols, rows};
+      numbersCache.set(url, Promise.resolve(numbers));
+      return numbers;
     });
+}
+
+let timer = null;
+function updateExecution() {
+  elById('time').innerText = Date.now() - timer.startTime;
+  elById('combs').innerText = combinationsCount;
+}
+function startTimer() {
+  elById('execution').classList.add('execution_started');
+  timer = {
+    startTime: Date.now(),
+    interval: setInterval(updateExecution, 500),
+  };
+}
+function stopTimer() {
+  timer && clearInterval(timer.interval);
+  updateExecution();
+  timer = null;
+}
+
+let currentUrl = null;
+let currentPromise = null;
+
+function loadAndPrepareField(url) {
+  combinationsCount = 0;
+  currentUrl = url;
+  return loadNumbers(url)
+    .then(numbers => {
+      const field = new Field(numbers);
+      const fieldEl = elById('field');
+      field.render(fieldEl);
+      return {field, fieldEl, solveIter: field.solveAll(), lastPointer: null};
+    });
+}
+
+const sourceSelect = elById('source');
+
+elById('solve').addEventListener('click', event => {
+  const url = sourceSelect.value;
+  startTimer();
+  currentPromise = url !== currentUrl
+    ? loadAndPrepareField(url).then(solveWithDelay)
+    : currentPromise.then(solveWithDelay);
+  currentPromise.then(() => stopTimer());
+});
+elById('solve_one_step').addEventListener('click', event => {
+  const url = sourceSelect.value;
+  currentPromise = url !== currentUrl
+    ? loadAndPrepareField(url)
+    : currentPromise.then(solveOneStep);
+});
+elById('reset').addEventListener('click', event => {
+  const url = sourceSelect.value;
+  currentPromise = loadAndPrepareField(url);
+});
