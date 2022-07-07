@@ -19,7 +19,7 @@ Lo que buscamos con esta aplicacion de web es que se pueda saber donde se tiene 
 ### Nuevo proyecto
 
 Haremos un proyecto que se encargue de solucionar el puzzle de **nonogram**
-El cual le muestre al usuario como hacer todo lo que tiene que hacer, nos guiaremos de este [tutorial](# FinalDiscreta
+El cual le muestre al usuario como hacer todo lo que tiene que hacer, nos guiaremos de este [tutorial](http://a.teall.info/nonogram/)
 
 ## Generador de grafos
 
