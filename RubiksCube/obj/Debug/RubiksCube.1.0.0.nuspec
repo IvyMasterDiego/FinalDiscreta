@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>RubiksCube</id>
+    <version>1.0.0</version>
+    <authors>RubiksCube</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="Microsoft.CSharp" version="4.7.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\diego\OneDrive\Desktop\INTEC\Matematica Discreta II\RubiksCube_src\RubiksCube\bin\Debug\net6.0-windows\RubiksCube.runtimeconfig.json" target="lib\net6.0-windows7.0\RubiksCube.runtimeconfig.json" />
+    <file src="C:\Users\diego\OneDrive\Desktop\INTEC\Matematica Discreta II\RubiksCube_src\RubiksCube\bin\Debug\net6.0-windows\RubiksCube.dll" target="lib\net6.0-windows7.0\RubiksCube.dll" />
+  </files>
+</package>

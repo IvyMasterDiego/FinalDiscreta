@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solver</title>
+</head>
+
+<body style="margin: 0" onload="initialize()">
+    <div id="status" style="padding: 15px; padding-bottom: 0px">
+        <p>Specify size (<input type="text" style="width: 24px" id="width" /> x
+            <input type="text" style="width: 24px" id="height" />)
+        </p>
+        <button id="reset">Reset</button>
+        <button id="solve">Solve</button><button id="onestep">One step</button>
+        <button id="save">Save</button>
+        <button id="load">Load</button>
+        <p>Click on grid to draw your own solution or to help solver.</p>
+        <p>WARNING: solving huge grids may take significant time and make your browser unresponsive.</p>
+        <p id="solve_status"></p>
+    </div>
+    <div id="svg" style="display: block;"></div>
+    <div id="nonogram_dialog" class="nonogram-dialog">
+        Digits of the line (use space to separate):<br />
+        <input id="selector_text" type="text" style="width: 100%" /><br />
+        <button id="selector_ok">OK</button>
+        <button id="selector_cancel">Cancel</button>
+    </div>
+    <script src="/NonogramSolverHtml/js/teal.js"></script>
+    <script src="/NonogramSolverHtml/js/teal.svg.js"></script>
+    <script src="/NonogramSolverHtml/js/main.js"></script>
+</body>
+
+</html>
