@@ -13,7 +13,7 @@
         WindowStartupLocation="CenterScreen"
         MouseMove="OnMouseMove"
         MouseLeftButtonDown="OnMouseLeftButtonDown"
-        MouseLeftButtonUp="OnMouseLeftButtonUp">
+        MouseLeftButtonUp="OnMouseLeftButtonUp" WindowState="Maximized">
     <Grid Name="MainGrid" Loaded="OnMainGridLoaded" SizeChanged="OnMainGridSizeChanged" Background="#FFABBCCB">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="6*"/>
