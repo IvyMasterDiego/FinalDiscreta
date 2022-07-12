@@ -1,4 +1,0 @@
-﻿  NonoGramSolverCPP.cpp
-C:\Users\diego\OneDrive\Desktop\INTEC\Matematica Discreta II\FinalDiscreta\NonoGramSolverCPP\NonoGramSolverCPP\NonoGramSolverCPP.cpp(62,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\diego\OneDrive\Desktop\INTEC\Matematica Discreta II\FinalDiscreta\NonoGramSolverCPP\NonoGramSolverCPP\NonoGramSolverCPP.cpp(111,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  NonoGramSolverCPP.vcxproj -> C:\Users\diego\OneDrive\Desktop\INTEC\Matematica Discreta II\FinalDiscreta\NonoGramSolverCPP\x64\Debug\NonoGramSolverCPP.exe
