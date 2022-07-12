@@ -17,7 +17,7 @@
     </frameworkReferences>
   </metadata>
   <files>
-    <file src="C:\Users\diego\OneDrive\Desktop\INTEC\Matematica Discreta II\RubiksCube_src\RubiksCube\bin\Debug\net6.0-windows\RubiksCube.runtimeconfig.json" target="lib\net6.0-windows7.0\RubiksCube.runtimeconfig.json" />
-    <file src="C:\Users\diego\OneDrive\Desktop\INTEC\Matematica Discreta II\RubiksCube_src\RubiksCube\bin\Debug\net6.0-windows\RubiksCube.dll" target="lib\net6.0-windows7.0\RubiksCube.dll" />
+    <file src="C:\Users\diego\OneDrive\Desktop\INTEC\Matematica Discreta II\FinalDiscreta\RubiksCube\bin\Debug\net6.0-windows\RubiksCube.runtimeconfig.json" target="lib\net6.0-windows7.0\RubiksCube.runtimeconfig.json" />
+    <file src="C:\Users\diego\OneDrive\Desktop\INTEC\Matematica Discreta II\FinalDiscreta\RubiksCube\bin\Debug\net6.0-windows\RubiksCube.dll" target="lib\net6.0-windows7.0\RubiksCube.dll" />
   </files>
 </package>

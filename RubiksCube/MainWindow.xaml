@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
         Name="RubiksCubeWindow"
-        Title="Rubik's Cube for beginners."
+        Title="Final Discreta"
         Height="680"
         Width="1100"
         MinHeight="680"
@@ -95,12 +95,12 @@
 			FontFamily="Arial" FontSize="14" FontWeight="Bold"
 			HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Grid.Column="1" />
         <Label
-			Width="120" Height="26"
+			Width="156" Height="26"
 			HorizontalAlignment="Left" VerticalAlignment="Top"
-			Margin="56,8,0,0" Background="#FFFFFFE0"
+			Margin="38,7,0,0" Background="#FFFFFFE0"
 			FontFamily="Arial" FontSize="14" FontWeight="Bold"
 			HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
-			Content="Sides Rotations" Grid.Column="1" />
+			Content="Rotaciones de lados" Grid.Column="1" />
         <Button
 			Name="RotationButton0"
 			Width="60" Height="34"
@@ -269,7 +269,7 @@
 			Margin="56,270,0,0" Background="#FFFFFFE0"
 			FontFamily="Arial" FontSize="14" FontWeight="Bold"
 			HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
-			Content="Up Face" Grid.Column="1" />
+			Content="Cara de arriba" Grid.Column="1" />
         <Button
 			Name="UpFaceButton0"
 			Width="34" Height="34"
@@ -324,7 +324,7 @@
 			Margin="56,342,0,0" Background="#FFFFFFE0"
 			FontFamily="Arial" FontSize="14" FontWeight="Bold"
 			HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
-			Content="Front Face" Grid.Column="1" />
+			Content="Cara Frontal" Grid.Column="1" />
         <Button
 			Name="FrontFaceButton0"
 			Width="34" Height="34"
@@ -380,7 +380,7 @@
 			Margin="20,414,0,0" Background="#FFFFFFFF"
 			FontFamily="Arial" FontSize="14" FontWeight="Bold"
 			HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
-			Content="User Cube Selected Color" Grid.ColumnSpan="2" />
+			Content="Color seleccionado por el usuario" Grid.ColumnSpan="2" />
         <Button
 			Name="SetColorButton0"
 			Width="34" Height="34"
@@ -435,7 +435,7 @@
 			HorizontalAlignment="Left" VerticalAlignment="Top"
 			Margin="16,486,0,0" Background="#FFF0F0F0"
 			FontFamily="Arial" FontSize="14" FontWeight="Bold"
-			Content="Solve Step"
+			Content="Un Paso"
 			Click="SolveStepButtonClick" Grid.ColumnSpan="2" />
         <Button
 			Name="AutoSolveButton"
@@ -443,7 +443,7 @@
 			HorizontalAlignment="Left" VerticalAlignment="Top"
 			Margin="120,486,0,0" Background="#FFF0F0F0"
 			FontFamily="Arial" FontSize="14" FontWeight="Bold"
-			Content="Auto Solve"
+			Content="Resolver "
 			Click="AutoSolveButtonClick" Grid.Column="1" />
         <Button
 			Name="ResetButton"
@@ -451,7 +451,7 @@
 			HorizontalAlignment="Left" VerticalAlignment="Top"
 			Margin="16,529,0,0" Background="#FFF0F0F0"
 			FontFamily="Arial" FontSize="14" FontWeight="Bold"
-			Content="Reset"
+			Content="Reiniciar"
 			Click="ResetButtonClick" Grid.ColumnSpan="2" />
         <Button
 			Name="ScrambleButton"
@@ -459,23 +459,15 @@
 			HorizontalAlignment="Left" VerticalAlignment="Top"
 			Margin="120,529,0,0" Background="#FFF0F0F0"
 			FontFamily="Arial" FontSize="14" FontWeight="Bold"
-			Content="Scramble"
+			Content="Mezclar"
 			Click="ScrambleButtonClick" Grid.Column="1" />
         <Button
 			Name="UndoButton"
 			Width="120" Height="34"
 			HorizontalAlignment="Left" VerticalAlignment="Top"
-			Margin="16,567,0,0" Background="#FFF0F0F0"
+			Margin="56,568,0,0" Background="#FFF0F0F0"
 			FontFamily="Arial" FontSize="14" FontWeight="Bold"
-			Content="Undo"
-			Click="UndoButtonClick" Grid.ColumnSpan="2" />
-        <Button
-			Name="UserCubeButton"
-			Width="120" Height="34"
-			HorizontalAlignment="Left" VerticalAlignment="Top"
-			Margin="120,567,0,0" Background="#FFF0F0F0"
-			FontFamily="Arial" FontSize="14" FontWeight="Bold"
-			Content="User Cube"
-			Click="UserCubeButtonClick" Grid.Column="1" />
+			Content="Deshacer"
+			Click="UndoButtonClick" Grid.Column="1" />
     </Grid>
 </Window>

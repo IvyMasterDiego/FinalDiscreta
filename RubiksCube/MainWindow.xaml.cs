@@ -225,7 +225,7 @@ public partial class MainWindow : Window
 
 		// user is setting the cube
 		UserCubeActive = false;
-		UserCubeButton.Content = "User Cube";
+		//UserCubeButton.Content = "User Cube";
 		UserCubeSelection = 0;
 		SetColorButtonClick(null, null);
 
@@ -1009,7 +1009,7 @@ public partial class MainWindow : Window
 			SolveLabel1.Content = "User cube";
 			SolveLabel2.Content = "Set Rubik's Cube Faces Color";
 			SolveLabel3.Content = "Press \"End Coloring\" when done";
-			UserCubeButton.Content = "End Coloring";
+			//UserCubeButton.Content = "End Coloring";
 			UserCubeActive = true;
 			UserColorArray = RubiksCube3D.FullCube.ColorArray;
 			}
@@ -1031,7 +1031,7 @@ public partial class MainWindow : Window
 				}
 
 			ResetInfoLabels(false);
-			UserCubeButton.Content = "User Cube";
+			//UserCubeButton.Content = "User Cube";
 			UserCubeActive = false;
 			}
 		return;
