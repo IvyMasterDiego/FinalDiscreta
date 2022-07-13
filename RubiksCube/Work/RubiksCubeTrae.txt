@@ -79,3 +79,112 @@ Yellow Edges. Yellow Green Edge. Shuffle yellow edges to get one match. Yellow. 
 Yellow Edges. Yellow Green Edge. Rotate 3 edges to position. Yellow. Red. R U' R - U R U - R U' R' - U' R2. G Y' G - Y G Y - G Y' G' - Y' G2
 ---- 2022/07/12 08:38:22 
 Reset
+---- 2022/07/12 13:23:50 
+Reset
+Scramble: B R G' - Y2 O' R2 - Y2 W O2 - W2
+White Edges. White Red Edge. Move to position. White. Red. F. R
+White Edges. White Orange Edge. Move to position. White. Orange. F'. O'
+White Edges. White Blue Edge. Move to position. White. Blue. U2 B' U2. W2 G' W2
+White Edges. White Green Edge. Move to position. White. Green. U L U' - F. W O W' - G
+White Corners. White Green Orange Corner. Move to position. White. Orange. R' D2 R - D R' D' - R. G' Y2 G - Y G' Y' - G
+White Corners. White Blue Red Corner. Move to position. White. Red. R' D2 R - D R' D' - R. B' Y2 B - Y B' Y' - B
+White Corners. White Red Green Corner. Rotate and move to position. White. Green. D' F D - F'. Y' G Y - G'
+White Corners. White Blue Orange Corner. Rotate and move to position. White. Blue. D R' D' - R. Y O' Y' - O
+Mid Layer Edges. Blue Red Edge. Move to position (adjust first step). Yellow. Blue. U2 R U' - R' U' F' - U F. Y2 R Y' - R' Y' B' - Y B
+Mid Layer Edges. Blue Orange Edge. Move to position (remove first step). Yellow. Blue. L' U L - U F U' - F'. O' Y O - Y B Y' - B'
+Yellow Cross. Yellow Green Edge. Move from line to cross. Yellow. Green. F R U - R' U' F'. G O Y - O' Y' G'
+Yellow Corners Position. Yellow Green Orange Corner. Rotate 3 corners into position. Yellow. Green. L R' U' - R U L' - U' R' U - R. R O' Y' - O Y R' - Y' O' Y - O
+Yellow Corners. Yellow Red Green Corner. Shuffle three yellow corners. Yellow. Green. L U L' - U L U2 - L' U2. R Y R' - Y R Y2 - R' Y2
+Yellow Corners. Yellow Red Green Corner. Rotate 3 yellow corners into their place. Yellow. Orange. R' U' R - U' R' U2 - R U2. B' Y' B - Y' B' Y2 - B Y2
+Yellow Edges. Yellow Red Edge. Rotate 3 edges to position. Yellow. Blue. R2 U R - U R' U' - R' U' R' - U R'. R2 Y R - Y R' Y' - R' Y' R' - Y R'
+White Edges. White Orange Edge. Move to position. White. Orange. F2. O2
+White Edges. White Green Edge. Move to position. White. Green. R2 F'. R2 G'
+White Edges. White Red Edge. Move to position. White. Red. L' F L. G' R G
+White Corners. White Green Orange Corner. Rotate and move to position. White. Orange. D F D - F'. Y O Y - O'
+White Corners. White Blue Red Corner. Rotate and move to position. White. Red. D R' D' - R. Y B' Y' - B
+Mid Layer Edges. Blue Red Edge. Move to position (remove first step). Yellow. Blue. R U' R' - U' F' U - F. R Y' R' - Y' B' Y - B
+Mid Layer Edges. Red Green Edge. Move edge to yellow face. Yellow. Red. R U' R' - U' F' U - F. G Y' G' - Y' R' Y - R
+Mid Layer Edges. Red Green Edge. Move to position (adjust first step). Yellow. Red. U' R U' - R' U' F' - U F. Y' G Y' - G' Y' R' - Y R
+Yellow Cross. Yellow Green Edge. Move from line to cross. Yellow. Green. F R U - R' U' F'. G O Y - O' Y' G'
+Yellow Corners Position. Yellow Blue Red Corner. Rotate 3 corners to get one corner match. Yellow. Blue. U' L R' - U' R U - L' U' R' - U R. Y' O R' - Y' R Y - O' Y' R' - Y R
+Yellow Corners Position. Yellow Red Green Corner. Rotate 3 corners into position. Yellow. Red. U R' U' - R U L - U' R' U - R L'. Y G' Y' - G Y B - Y' G' Y - G B'
+Yellow Corners. Yellow Blue Orange Corner. Shuffle three yellow corners. Yellow. Blue. L U L' - U L U2 - L' U2. O Y O' - Y O Y2 - O' Y2
+Yellow Corners. Yellow Blue Orange Corner. Rotate 3 yellow corners into their place. Yellow. Red. R' U' R - U' R' U2 - R U2. G' Y' G - Y' G' Y2 - G Y2
+Yellow Edges. Yellow Orange Edge. Shuffle yellow edges to get one match. Yellow. Blue. R U' R - U R U - R U' R' - U' R2. R Y' R - Y R Y - R Y' R' - Y' R2
+Yellow Edges. Yellow Orange Edge. Rotate 3 edges to position. Yellow. Green. R2 U R - U R' U' - R' U' R' - U R'. O2 Y O - Y O' Y' - O' Y' O' - Y O'
+---- 2022/07/12 16:07:47 
+Reset
+Scramble: Y W2 Y2 - O' R' B - Y' W' B' - R
+White Edges. White Orange Edge. Rotate to position. White. Orange. U2. W2
+White Edges. White Blue Edge. Move to position. White. Blue. U L' U'. W R' W'
+White Edges. White Red Edge. Move to position. White. Red. R' D R - F'. B' Y B - R'
+White Corners. White Green Orange Corner. Move to position. White. Orange. R' D' R. G' Y' G
+White Corners. White Blue Red Corner. Move to position. White. Red. R' D2 R - D R' D' - R. B' Y2 B - Y B' Y' - B
+White Corners. White Red Green Corner. Rotate and move to position. White. Green. D F D - F'. Y G Y - G'
+White Corners. White Blue Orange Corner. Move to position. White. Blue. F D F'. B Y B'
+Mid Layer Edges. Red Green Edge. Move to position (adjust first step). Yellow. Green. U L' U - L U F - U' F'. Y R' Y - R Y G - Y' G'
+Mid Layer Edges. Blue Orange Edge. Move to position (adjust first step). Yellow. Blue. U2 L' U - L U F - U' F'. Y2 O' Y - O Y B - Y' B'
+Mid Layer Edges. Blue Red Edge. Move edge to yellow face. Yellow. Blue. R U' R' - U' F' U - F. R Y' R' - Y' B' Y - B
+Mid Layer Edges. Blue Red Edge. Move to position (adjust first step). Yellow. Blue. U' R U' - R' U' F' - U F. Y' R Y' - R' Y' B' - Y B
+Mid Layer Edges. Green Orange Edge. Move edge to yellow face. Yellow. Green. R U' R' - U' F' U - F. O Y' O' - Y' G' Y - G
+Mid Layer Edges. Green Orange Edge. Move to position (adjust first step). Yellow. Green. U' R U' - R' U' F' - U F. Y' O Y' - O' Y' G' - Y G
+Yellow Cross. Yellow Red Edge. Move from line to cross. Yellow. Red. F R U - R' U' F'. R G Y - G' Y' R'
+Yellow Corners Position. Yellow Blue Red Corner. Rotate 3 corners into position. Yellow. Blue. R' U' R - U L U' - R' U R - L'. R' Y' R - Y O Y' - R' Y R - O'
+Yellow Corners. Yellow Green Orange Corner. Shuffle three yellow corners. Yellow. Orange. L U L' - U L U2 - L' U2. G Y G' - Y G Y2 - G' Y2
+Yellow Corners. Yellow Green Orange Corner. Rotate 3 yellow corners into their place. Yellow. Blue. R' U' R - U' R' U2 - R U2. R' Y' R - Y' R' Y2 - R Y2
+Yellow Edges. Yellow Green Edge. Rotate 3 edges to position. Yellow. Red. R2 U R - U R' U' - R' U' R' - U R'. G2 Y G - Y G' Y' - G' Y' G' - Y G'
+---- 2022/07/12 16:53:01 
+Reset
+White Edges. White Green Edge. Rotate to position. White. Green. U2. W2
+White Edges. White Red Edge. Move to position. White. Red. D2 F2. Y2 R2
+White Edges. White Orange Edge. Move to position. White. Orange. U L U'. W B W'
+White Edges. White Blue Edge. Move to position. White. Blue. F U L' - U'. B W R' - W'
+White Corners. White Blue Red Corner. Rotate and move to position. White. Red. D' F D - F'. Y' R Y - R'
+White Corners. White Green Orange Corner. Rotate and move to position. White. Orange. D F D - F'. Y O Y - O'
+White Corners. White Blue Orange Corner. Rotate and move to position. White. Blue. D' R' D' - R. Y' O' Y' - O
+White Corners. White Red Green Corner. Move to yellow face. White. Green. F D F'. G Y G'
+White Corners. White Red Green Corner. Rotate and move to position. White. Green. D' F D - F'. Y' G Y - G'
+Mid Layer Edges. Blue Red Edge. Move to position (adjust first step). Yellow. Blue. U' R U' - R' U' F' - U F. Y' R Y' - R' Y' B' - Y B
+Mid Layer Edges. Blue Orange Edge. Move to position (adjust first step). Yellow. Orange. U' R U' - R' U' F' - U F. Y' B Y' - B' Y' O' - Y O
+Mid Layer Edges. Red Green Edge. Move to position (adjust first step). Yellow. Red. U R U' - R' U' F' - U F. Y G Y' - G' Y' R' - Y R
+Mid Layer Edges. Green Orange Edge. Move to position (adjust first step). Yellow. Orange. U' L' U - L U F - U' F'. Y' G' Y - G Y O - Y' O'
+Yellow Cross. Yellow Green Edge. Move from L shape to cross. Yellow. Green. F U R - U' R' F'. G Y O - Y' O' G'
+Yellow Corners Position. Yellow Blue Red Corner. Rotate 3 corners into position. Yellow. Blue. R' U' R - U L U' - R' U R - L'. R' Y' R - Y O Y' - R' Y R - O'
+Yellow Corners. Yellow Blue Red Corner. Rotate 3 yellow corners into their place. Yellow. Green. R' U' R - U' R' U2 - R U2. O' Y' O - Y' O' Y2 - O Y2
+Yellow Edges. Yellow Orange Edge. Rotate 3 edges to position. Yellow. Green. R2 U R - U R' U' - R' U' R' - U R'. O2 Y O - Y O' Y' - O' Y' O' - Y O'
+---- 2022/07/12 17:44:41 
+Reset
+Reset
+Scramble: O' Y R2 - W Y' B2 - G W2 B - Y2
+White Edges. White Blue Edge. Rotate to position. White. Blue. U. W
+White Edges. White Red Edge. Move to position. White. Red. U L U'. W G W'
+White Edges. White Orange Edge. Move to position. White. Orange. U2 B U2. W2 R W2
+White Corners. White Red Green Corner. Move to position. White. Green. R' D' R. R' Y' R
+White Corners. White Green Orange Corner. Move to position. White. Orange. R' D2 R - D R' D' - R. G' Y2 G - Y G' Y' - G
+White Corners. White Blue Orange Corner. Rotate and move to position. White. Blue. D R' D2 - R D R' - D' R. Y O' Y2 - O Y O' - Y' O
+White Corners. White Blue Red Corner. Rotate and move to position. White. Red. D R' D' - R. Y B' Y' - B
+Mid Layer Edges. Red Green Edge. Move edge to yellow face. Yellow. Red. R U' R' - U' F' U - F. G Y' G' - Y' R' Y - R
+Mid Layer Edges. Blue Red Edge. Move to position (adjust first step). Yellow. Red. U L' U - L U F - U' F'. Y B' Y - B Y R - Y' R'
+Mid Layer Edges. Green Orange Edge. Move to position (adjust first step). Yellow. Green. U2 R U' - R' U' F' - U F. Y2 O Y' - O' Y' G' - Y G
+Mid Layer Edges. Blue Orange Edge. Move to position (adjust first step). Yellow. Blue. U' L' U - L U F - U' F'. Y' O' Y - O Y B - Y' B'
+Mid Layer Edges. Red Green Edge. Move to position (adjust first step). Yellow. Green. U' L' U - L U F - U' F'. Y' R' Y - R Y G - Y' G'
+Yellow Cross. Yellow Red Edge. Move from L shape to cross. Yellow. Red. F U R - U' R' F'. R Y G - Y' G' R'
+Yellow Corners Position. Yellow Red Green Corner. Rotate yellow face to position. Yellow. Red. U. Y
+Yellow Corners. Yellow Blue Red Corner. Rotate 3 yellow corners into their place. Yellow. Orange. L U L' - U L U2 - L' U2. G Y G' - Y G Y2 - G' Y2
+Yellow Edges. Yellow Blue Edge. Rotate 3 edges to position. Yellow. Orange. R U' R - U R U - R U' R' - U' R2. B Y' B - Y B Y - B Y' B' - Y' B2
+Scramble: O' G2 O2 - B' O' Y - B' Y' O2 - G
+White Edges. White Green Edge. Move to position. White. Green. F. G
+White Edges. White Orange Edge. Move to position. White. Orange. F2. O2
+White Edges. White Blue Edge. Move to position. White. Blue. D F2. Y B2
+White Corners. White Blue Orange Corner. Move to position. White. Blue. R' D' R. O' Y' O
+White Corners. White Red Green Corner. Rotate and move to position. White. Green. D R' D2 - R D R' - D' R. Y R' Y2 - R Y R' - Y' R
+White Corners. White Blue Red Corner. Rotate and move to position. White. Red. D' R' D2 - R D R' - D' R. Y' B' Y2 - B Y B' - Y' B
+Mid Layer Edges. Blue Red Edge. Move to position (remove first step). Yellow. Blue. R U' R' - U' F' U - F. R Y' R' - Y' B' Y - B
+Mid Layer Edges. Red Green Edge. Move to position (remove first step). Yellow. Green. L' U L - U F U' - F'. R' Y R - Y G Y' - G'
+Mid Layer Edges. Blue Orange Edge. Move to position (remove first step). Yellow. Blue. L' U L - U F U' - F'. O' Y O - Y B Y' - B'
+Yellow Cross. Yellow Red Edge. Move first two yellow faces. Yellow. Green. F R U - R' U' F'. G O Y - O' Y' G'
+Yellow Cross. Yellow Blue Edge. Move from L shape to cross. Yellow. Blue. F U R - U' R' F'. B Y R - Y' R' B'
+Yellow Corners Position. Yellow Red Green Corner. Rotate yellow face to position. Yellow. Red. U'. Y'
+Yellow Corners. Yellow Green Orange Corner. Shuffle three yellow corners. Yellow. Blue. L U L' - U L U2 - L' U2. O Y O' - Y O Y2 - O' Y2
+Yellow Corners. Yellow Green Orange Corner. Rotate 3 yellow corners into their place. Yellow. Blue. R' U' R - U' R' U2 - R U2. R' Y' R - Y' R' Y2 - R Y2
+Yellow Edges. Yellow Red Edge. Rotate 3 edges to position. Yellow. Blue. R U' R - U R U - R U' R' - U' R2. R Y' R - Y R Y - R Y' R' - Y' R2
